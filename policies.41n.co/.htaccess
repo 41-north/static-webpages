@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^policies\.41n\.co$ [NC]
+RewriteRule ^(.*)$ https://about.41n.co/policies/$1 [R=302,L]

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting to Contact 41N...</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        h1 {
+            font-size: 32px;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 0.3em;
+            margin-bottom: 16px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .hidden-verification {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Redirecting you to Contact 41N...</h1>
+    <p>If you are not redirected automatically, <a href="https://wiki.41n.co/contact/start">click here</a></p>
+    <a rel="me" href="https://mstdn.social/@41north" class="hidden-verification">Mastodon</a>
+    <script>
+        setTimeout(function() {
+            window.location.href = 'https://wiki.41n.co/contact/start';
+        }, 500);  // 500 milliseconds = 0.5 seconds
+    </script>
+</body>
+</html>

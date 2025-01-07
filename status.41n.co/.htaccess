@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^status\.41n\.co$ [NC]
+RewriteRule ^(.*)$ https://41north.instatus.com/$1 [R=302,L]

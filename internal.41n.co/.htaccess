@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^internal\.41n\.co$ [NC]
+RewriteRule ^$ https://outline.41apps.com/collection/internal-handbook-X8ayW89lmC [R=302,L]
+RewriteRule ^(.+)$ https://outline.41apps.com/doc/$1 [R=302,L]
